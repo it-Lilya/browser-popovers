@@ -17,7 +17,7 @@ export class Popover {
     const btn = document.querySelector('.btn');
     const { top, left, width } = btn.getBoundingClientRect();
     popover.style.width = `${width + 30}px`;
-    popover.style.top = `${top - 120}px`;
+    popover.style.bottom = `${top + 120}px`;
     popover.style.left = `${left - 15}px`;
   }
 }
