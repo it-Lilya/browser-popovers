@@ -1,5 +1,9 @@
+.container {
+    position: relative;
+}
+
 .btn {
-    margin: 200px 250px 0;
+    margin: 220px 250px 0;
     color: white;
     background-color: rgb(236, 57, 57);
     padding: 10px 15px;
@@ -8,6 +12,10 @@
     font-size: 20px;
     position: relative;
     width: 200px;
+}
+
+.active {
+    background-color: rgb(206, 53, 53);
 }
 
 .popover {
